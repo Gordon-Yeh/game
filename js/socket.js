@@ -1,5 +1,5 @@
 // TODO: Find a better way to scope/link modules
-var signalSocket = new WebSocket("ws://gotenks-2864.appspot.com");
+var signalSocket = new WebSocket("wss://gotenks-2864.appspot.com");
 var room = 'foo';
 
 function sendMessage(msgType, room, message) {
